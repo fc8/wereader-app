@@ -2,11 +2,10 @@
   "$schema": "https://schema.tauri.app/config/2",
   "productName": "wereader-app",
   "version": "0.1.0",
-  "identifier": "com.tauri.dev",
+  "identifier": "com.fc8.wereader-app",
   "build": {
     "frontendDist": "https://weread.qq.com",
-    "devUrl": "https://weread.qq.com",
-    "beforeBuildCommand": "npm run build"
+    "devUrl": "https://weread.qq.com"
   },
   "app": {
     "windows": [
@@ -26,7 +25,8 @@
     "active": true,
     "targets": "all",
     "icon": [
-      "icons/favicon_48h.png"
+      "icons/favicon_48h.png",
+      "icons/icon.ico"
     ]
   }
 }
