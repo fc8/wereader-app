@@ -1,0 +1,14 @@
+{
+  "name": "weixin-reader",
+  "version": "1.0.0",
+  "description": "微信读书桌面应用",
+  "main": "index.js",
+  "scripts": {
+    "tauri": "tauri",
+    "dev": "tauri dev",
+    "build": "tauri build"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.0.0"
+  }
+}
